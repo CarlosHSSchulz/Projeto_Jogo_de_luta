@@ -38,3 +38,24 @@ class Sorcerer extends Character {
 
     }
 }
+
+class litleMonster extends Character {
+    constructor() {
+        super('Pequeno Monstro');
+        this.life = 40;
+        this.attack = 4;
+        this.defense = 4;
+        this.maxLife = this.life;
+
+    }
+}
+class bigMonster extends Character {
+    constructor() {
+        super('Grande Monstro');
+        this.life = 120;
+        this.attack = 16;
+        this.defense = 6;
+        this.maxLife = this.life;
+
+    }
+}
